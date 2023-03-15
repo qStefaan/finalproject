@@ -1,0 +1,153 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: beige;
+  height: 100vh;
+}
+
+.header {
+  height: 900px;
+  background-image: url("31.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  gap: 250px;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
+}
+
+.header-title {
+  font-family: "Poppins";
+  color: beige;
+  text-shadow: 4px 2px 2px #ce5937;
+  width: 1000px;
+  font-size: 4rem;
+}
+
+.header-button {
+  width: 150px;
+  padding: 14px;
+  border-radius: 7px;
+  background-color: #ce5937;
+  font-family: "Poppins";
+  font-size: 0.9rem;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-button > p {
+  margin: 0px;
+  text-decoration: none;
+}
+
+.header-button > img {
+  width: 15px;
+}
+
+h2 {
+  /* margin: 0;
+    padding: 0; */
+  text-align: center;
+}
+
+#shop-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.title {
+  color: rgb(187, 1, 1);
+}
+
+.item {
+  background-color: beige;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.item:hover {
+  transform: scale(1.1);
+  transition: transform 1s ease-in-out;
+}
+
+.header-button:hover {
+  transform: scale(1.1);
+}
+
+.item > img {
+  max-height: 300px;
+  border: 3px solid white;
+  transition: transform 1.3s ease-in-out;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+ul {
+  list-style: none;
+}
+.footer {
+  background-color: #596686;
+  padding: 70px 0;
+}
+
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 8px;
+}

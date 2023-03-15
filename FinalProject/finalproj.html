@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="finalproj.css" />
+    <script src="finalproj.js" defer></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font- 
+       awesome/5.15.2/css/all.min.css"
+      integrity="sha512- 
+      s1OjzbmO+aF+rlTu2xGyK5r5/jg+LEd5OwWbO8Blv7D9X2MHZO+p+iLhW8Z5r5J5/PO+eiLw/hfW8yvfhDz+9Q=="
+      crossorigin="anonymous"
+    />
+    <title>MAIN</title>
+  </head>
+  <body>
+    <h1 id="tit">Welcome to my Webpage</h1>
+
+    <ul>
+      <li id="homebtn"><a href="#">🏠</a></li>
+      <li><a href="mama.html">Mom`s Section</a></li>
+      <button class="dropbtn" onclick="toggleDropdown()">PORTOFOLIO</button>
+      <div class="dropdown-content" id="myDropdown">
+        <a id="links"href="tictactoe.html">Rock-Paper-Scissors Game</a>
+        <a id="links"href="X0.html">TicTacToe Game</a>
+        
+      </div>
+      <li><a href="https://www.freecodecamp.org/">Inspiration</a></li>
+      <li><a href="#" id="openModal">Login</a></li>
+    </ul>
+    <div class="prezentare">
+      <h1 id="prezh1">Hello , I am Iuga Alin Stefan , future web developer</h1>
+      <p id="prezp">
+        Being the final project, I thought of making a portfolio in which I
+        could present all the skills I learned and the applications I made, all
+        concentrated in one web page. I had my first contact with programming in
+        class 9 when I printed Hello World in C++. During college I interacted
+        with C#, Python and in the end I got to HTML, CSS, JAVSCRIPT, REACT
+        which I was most passionate about.But, because I have a talented mother
+        and I couldn't help but brag, this page is not only about me and the
+        mini-games created. If you want to see, you are my guests
+      </p>
+    </div>
+
+    <div id="container-modal" class="modal-form d-none">
+      <div class="close-modal-container">
+        <span id="closeModal">X</span>
+      </div>
+
+      <div class="login-form">
+        <h2>Login</h2>
+        <form>
+          <label for="username">Username</label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Enter your username"
+            required
+          />
+
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Enter your password"
+            required
+          />
+
+          <input type="submit" value="Login" />
+        </form>
+      </div>
+    </div>
+    <div class="carousel">
+      <h1 id="pass">Some of my passions are</h1>
+      <div class="slide">
+        <img src="videogames.png" alt="Image 1" width="250" height="250" />
+      </div>
+      <div class="slide">
+        <img src="boardgames.png" alt="Image 2" width="250" height="250" />
+      </div>
+      <div class="slide">
+        <img src="footbal.png" alt="Image 3" width="250" height="250" />
+      </div>
+      <div class="slide">
+        <img src="rs7.png" alt="Image 3" width="250" height="250" />
+      </div>
+      <div class="slide">
+        <img src="trip.png" alt="Image 3" width="250" height="250" />
+      </div>
+      <div class="slide">
+        <img src="music.png" alt="Image 3" width="250" height="250" />
+      </div>
+      <div class="slide">
+        <img src="hiking.png" alt="Image 3" width="250" height="250" />
+      </div>
+      <div class="slide">
+        <img src="inginerie.png" alt="Image 3" width="250" height="250" />
+      </div>
+      
+    </div>
+
+    <footer class="footer-distributed">
+      <div class="footer-left">
+        <h3>Iuga<span>Stefan</span></h3>
+
+        <p class="footer-links">
+          <a href="#">Portofolio</a>
+          ·
+          <a href="#">Blog</a>
+          ·
+
+          <a href="#">About</a>
+          ·
+          <a href="#">Refferences</a>
+          ·
+          <a href="#">Contact</a>
+        </p>
+
+        <p class="footer-company-name">
+          Iuga Stefan © 2023 All rights reserved
+        </p>
+
+        <div class="icons">
+          <a href="https://www.facebook.com/stefan.iuga.75/"
+            ><i class="fa fa-facebook"><img src="facebook.png" alt="" /></i
+          ></a>
+          <a href="https://www.instagram.com/stefaniuga/"
+            ><i class="fa fa-twitter"><img src="ig_30x30.png" alt="" /></i
+          ></a>
+          <a href="https://www.linkedin.com/in/stefan-iuga-704083237/"
+            ><i class="fa fa-instagram"
+              ><img src="linkedin_30x30.png" alt="" /></i
+          ></a>
+          <a href="https://www.youtube.com/"
+            ><i class="fa fa-youtube"><img src="yt_30x30.png" alt="" /></i
+          ></a>
+        </div>
+      </div>
+
+      <div class="footer-right">
+        <form action="#" method="post">
+          <input type="text" name="email" placeholder="youremail@gmail.com" />
+          <textarea name="message" placeholder="Message"></textarea>
+          <button class="sendbtn">Send</button>
+        </form>
+      </div>
+    </footer>
+  </body>
+</html>
